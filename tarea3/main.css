@@ -1,0 +1,14 @@
+.card{
+    border: 1opx solid purple;
+    background-color: rgba(0,0,255,0.425);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 25px 30px;
+    border-radius: 12px;
+}
+
+.card:hover{
+    background-color: rgb(161,26,67);
+}

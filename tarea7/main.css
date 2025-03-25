@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+    color: rgba(24,23,23,0.76);
+}
+
+.text{
+    font-size: 2rem;
+    font-family: 'roboto',sans-serif;
+    text-shadow: 2px 2px 4px #f5f3f3;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    animation: fadreInAnimation 1s ease-in-out forwards;
+}
+
+body{
+    background: #654ea3;
+    background:-webkit-linear-gradient(to rignt,#eaafc8, 3654ae3);
+    background:linear-gradient(to rignt, #eaafc8, #654ea3);
+}  
+
+@keyframes fadreInAnimation{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+
+}
+
+.text:hover{
+    color:aqua;
+}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Media Queries</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>LEONEL MESSI</h1>
+    <img src="https://i.pinimg.com/originals/52/aa/b7/52aab71db901d608c1f68b086f1e1de8.jpg" alt="Messi">
+</body>
+</html>
